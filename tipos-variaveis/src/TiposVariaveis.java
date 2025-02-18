@@ -14,7 +14,8 @@ public class TiposVariaveis {
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal; //casting adicionado como correção do erro para um numero em short ao invés de int.
 
-
+        //FAZENDO COM QUE UMA VARIAVEL NUNCA MUDE DE VALOR (CONSTANTE)
+        final double VALOR_DE_PI = 3.14; //coloque o final no inicio da declaração da váriavel e a nomeie em capslock.
 
     }
 }
